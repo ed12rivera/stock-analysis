@@ -15,13 +15,20 @@ First, we will run our analysis for the year 2017.  Because we formatted our out
  
 When looking at the analysis for 2018 we quickly notice the results are very different.  In these results we see that the returns are nearly all negative, and over half of the negative stocks had double-digit losses.  Only ENPH and RUN had positive returns in 2018.  The trading volume did not change much from 2017 and is still consistently high for all stocks analyzed. 
  
+ ![2018_results](Resources/Picture2.png)
+ 
 Our analysis shows that although the selected stocks looked promising in 2017, as we move onto 2018 we see these are actually not high performing companies.  Steve should recommend to his parents not to invest in any of these green stocks with the exceptions of ENPH and RUN.  ENPH had exceptional growth both years, with a yearly return of 129.5% in 2017 and 81.9% in 2018.  I would recommend Steve do more due diligence before recommending his parents invest in ENPH, but it could be an extremely profitable investment if it continues to grow anywhere near its current rate.  RUN had a positive return in 2017 but then increased that return greatly in 2018.  It is another stock worth looking into investing in.
+
 ### Performance Comparison
 Our original code provided the correct results we needed, but we wanted to make it more efficient so we could run it over a larger data set without processing or time issues.  Running the code took over a second every time and was usually between 1.1 and 1.3 seconds.
-  
+
+![2017_unrefactored](Resources/Picture3.png)
+![2018_unrefactored](Resources/Pictures4.png)
  
 After refactoring our code, it would almost always run in under one second.  It would usually run between 0.75 and 1 second.  Although the time difference is small, it is a significant improvement in the code.  This slight time saving will compound when we run the code over larger and larger data sets improving our analysis on future data sets Steven may want to look at.
  
+ ![2017_refactored](Resources/Picture5.png)
+ ![2017_refactored](Resources/Picture6.png)
  
 ## Summary
 
