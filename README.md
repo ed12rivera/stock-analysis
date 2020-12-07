@@ -23,7 +23,7 @@ Our analysis shows that although the selected stocks looked promising in 2017, a
 Our original code provided the correct results we needed, but we wanted to make it more efficient so we could run it over a larger data set without processing or time issues.  Running the code took over a second every time and was usually between 1.1 and 1.3 seconds.
 
 ![2017_unrefactored](Resources/Picture3.png)
-![2018_unrefactored](Resources/Pictures4.png)
+![2018_unrefactored](Resources/Picture4.png)
  
 After refactoring our code, it would almost always run in under one second.  It would usually run between 0.75 and 1 second.  Although the time difference is small, it is a significant improvement in the code.  This slight time saving will compound when we run the code over larger and larger data sets improving our analysis on future data sets Steven may want to look at.
  
